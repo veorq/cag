@@ -8,7 +8,7 @@ Lots of advice could be shared and lots of stories could be told and perhaps at 
 If you're also doing cryptography audits and would like to comment on these guidelines, please use GitHub Issues.
 If you'd like to contribute an entry, please feel free to file a PR.
 
-Thanks to the additional contributors: @diagprov.
+Thanks to the additional contributors: [diagprov](https://github.com/diagprov).
 
 ## For auditors
 
