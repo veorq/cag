@@ -1,11 +1,11 @@
 # Crypto Audit Guidelines
 
-I've been doing security audits for quite a few years, both independently and with Kudelski Security, reviewing implementations of cryptography and other security components for a variety of platforms, from smart card applications and dedicated silicon to web and mobile applications, from standards algorithms and elliptic curve arithmetic to consensus protocols and zero-knowledge proofs.
-Having worked with many different customers, written many reports, and seen reports from other auditors, I've learnt about things that work and things that don't and wish I had learnt some of these earlier. I also wish all auditors abided to some quality standard and that customers were better informed of what they can expect and demand from auditors.
+I've been doing security audits for quite a few years, both independently and with Kudelski Security, reviewing various implementations of cryptographic functionalities, from smart card applications and dedicated silicon to web and mobile applications, from standards algorithms and elliptic curve arithmetic to consensus protocols and zero-knowledge proofs.
+Having worked with many different customers, written many reports, seen reports from other auditors, and being on the other side of the fence, I've learnt about things that work and things that don't, and wish I had learnt some of these earlier. I also wish all auditors abided to some quality and ethical standard and that customers were better informed of what they can expect and demand from auditors.
 The following guidelines are thus an attempt to help auditors do a better job and customers get better value for their money, based on my experience (the usual YMMV disclaimer applies).
-Lot of things could be said and lot of stories could be told and perhaps at some point I'll write a longer piece, but here I've limited myself to what I think are the most important points.
+Lots of advice could be shared and lots of stories could be told and perhaps at some point I'll write a longer piece, but I've deliberately limited the points below this to what I believe will be the most beneficial.
 
-If you're also doing security audits and would like to comment on these guidelines, please use GitHub Issues.
+If you're also doing cryptography audits and would like to comment on these guidelines, please use GitHub Issues.
 If you'd like to contribute an entry, please feel free to file a PR.
 
 ## For auditors
@@ -42,4 +42,4 @@ If you'd like to contribute an entry, please feel free to file a PR.
 
 * **Don't hesitate to challenge the auditors**: If you find that an estimate of 5 person-weeks to audit your 500-LoC project is bonkers, tell it to your auditors, or, better, work with someone else. Also, auditors can't be expected to have as deep an understanding of your code base as your developers who've been working on it for the last six months, but they should appear to be comfortable with the scheme being audited and its implementation. If they don't understand what your code is doing, they're unlikely to find bugs therein.
 
-* **Careful with upsell work packages**: Some companies will try to upsell things such as "threat modeling", "security hardening", "performance optimization", or other more or less relevant subprojects that will translate in increased consulting fees. These can bring great value to the customer if done right and and if the content and goal of the work is clearly understood by both parties beforehand. But it can also turn out to be a scam when pitched by the consulting firm's sales person and signed off by a middle manager of the customer and when no engineer is involved. Such a situation ultimately hurts both sides.
+* **Careful with upsold work packages**: Some companies will try to upsell things such as "threat modeling", "security hardening", "performance optimization", or other more or less relevant subprojects that will translate in increased consulting fees. These can bring great value to the customer if done right and and if the content and goal of the work is clearly understood by both parties beforehand. But it can also turn out to be a scam when pitched by the consulting firm's sales person and signed off by a middle manager of the customer and when no engineer is involved. Such a situation ultimately hurts both sides.
