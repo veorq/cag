@@ -8,6 +8,8 @@ Lots of advice could be shared and lots of stories could be told and perhaps at 
 If you're also doing cryptography audits and would like to comment on these guidelines, please use GitHub Issues.
 If you'd like to contribute an entry, please feel free to file a PR.
 
+Thanks to the additional contributors: @diagprov.
+
 ## For auditors
 
 * **Don't inflate severities**: Sometimes auditors rate an issue high-severity not because its severity is demonstrably high--which usually entails its being exploitable--but because it looks bad and embarrassing to the auditors (for example, the use MD5), or because they speculate it would be exploitable under a coincidence of events as likely as correctly guessing a 256-bit key's value. But customers don't care about your personal feelings about the bug, they only need meaningful risk rating in order to prioritize fixes and (when applicable) communicate with their users. Never shy away from rating a bug hi-sev if it's actually hi-sev (likely exploitable with baaad consequences, as per the threat model defined), but clearly articulate the exploitation scenario and the business impact (data loss, DoS, etc.). Crying wolf will not help you build respectability in this business.
